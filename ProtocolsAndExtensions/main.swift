@@ -40,5 +40,8 @@ let myFlightShow = FlightShow()
 
 // What can I show on my flying perfomance to my audience?
 print("\nЧто я могу показать зрителям на своем представлени?\n")
+if let myPinguin = myPinguin as? CanFly {
+    myFlightShow.flyingDemo(flyingObject: myPinguin)
+}
 myFlightShow.flyingDemo(flyingObject: myEagle)
 myFlightShow.flyingDemo(flyingObject: myPlane)
