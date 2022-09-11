@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2B8C0328CB2DE300AF89ED /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B8C0228CB2DE300AF89ED /* Cache.swift */; };
+		9B2B8C0528CB55BC00AF89ED /* ArticleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B8C0428CB55BC00AF89ED /* ArticleLoader.swift */; };
 		9B4A940828C5A37600308BFE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A940728C5A37600308BFE /* main.swift */; };
+		9B4A941928C60A2C00308BFE /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A941828C60A2C00308BFE /* Bird.swift */; };
+		9B4A941B28C60A4400308BFE /* Pinguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A941A28C60A4400308BFE /* Pinguin.swift */; };
+		9B4A941D28C60A5F00308BFE /* Eagle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A941C28C60A5F00308BFE /* Eagle.swift */; };
+		9B4A941F28C60A7900308BFE /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A941E28C60A7900308BFE /* Airplane.swift */; };
+		9B4A942228C60AA900308BFE /* FlightShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A942128C60AA900308BFE /* FlightShow.swift */; };
+		9B4A942728C60B9300308BFE /* CanFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A942628C60B9300308BFE /* CanFly.swift */; };
+		9B4A942928C60EB600308BFE /* CanSwim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A942828C60EB600308BFE /* CanSwim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +32,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B2B8C0228CB2DE300AF89ED /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		9B2B8C0428CB55BC00AF89ED /* ArticleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleLoader.swift; sourceTree = "<group>"; };
 		9B4A940428C5A37600308BFE /* ProtocolsAndExtensions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtocolsAndExtensions; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4A940728C5A37600308BFE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B4A941828C60A2C00308BFE /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		9B4A941A28C60A4400308BFE /* Pinguin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinguin.swift; sourceTree = "<group>"; };
+		9B4A941C28C60A5F00308BFE /* Eagle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eagle.swift; sourceTree = "<group>"; };
+		9B4A941E28C60A7900308BFE /* Airplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+		9B4A942128C60AA900308BFE /* FlightShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightShow.swift; sourceTree = "<group>"; };
+		9B4A942628C60B9300308BFE /* CanFly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanFly.swift; sourceTree = "<group>"; };
+		9B4A942828C60EB600308BFE /* CanSwim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanSwim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				9B4A940728C5A37600308BFE /* main.swift */,
+				9B4A942628C60B9300308BFE /* CanFly.swift */,
+				9B4A942828C60EB600308BFE /* CanSwim.swift */,
+				9B4A942328C60B6900308BFE /* Entities */,
+				9B2B8C0228CB2DE300AF89ED /* Cache.swift */,
+				9B2B8C0428CB55BC00AF89ED /* ArticleLoader.swift */,
 			);
 			path = ProtocolsAndExtensions;
+			sourceTree = "<group>";
+		};
+		9B4A942328C60B6900308BFE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A941828C60A2C00308BFE /* Bird.swift */,
+				9B4A941A28C60A4400308BFE /* Pinguin.swift */,
+				9B4A941C28C60A5F00308BFE /* Eagle.swift */,
+				9B4A941E28C60A7900308BFE /* Airplane.swift */,
+				9B4A942128C60AA900308BFE /* FlightShow.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +155,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4A941D28C60A5F00308BFE /* Eagle.swift in Sources */,
+				9B2B8C0328CB2DE300AF89ED /* Cache.swift in Sources */,
+				9B4A941928C60A2C00308BFE /* Bird.swift in Sources */,
+				9B4A942928C60EB600308BFE /* CanSwim.swift in Sources */,
+				9B4A942228C60AA900308BFE /* FlightShow.swift in Sources */,
 				9B4A940828C5A37600308BFE /* main.swift in Sources */,
+				9B4A941F28C60A7900308BFE /* Airplane.swift in Sources */,
+				9B4A941B28C60A4400308BFE /* Pinguin.swift in Sources */,
+				9B4A942728C60B9300308BFE /* CanFly.swift in Sources */,
+				9B2B8C0528CB55BC00AF89ED /* ArticleLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
